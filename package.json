@@ -1,0 +1,12 @@
+{
+  "name": "xixu-me-skills",
+  "private": true,
+  "description": "Formatting helpers for this Agent Skills repository",
+  "scripts": {
+    "format:md": "prettier --write \"**/*.md\"",
+    "check:md": "prettier --check \"**/*.md\""
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
