@@ -13,7 +13,7 @@ This skill is for diagnosis and action planning, not just summarization. Infer t
 
 ## Source Of Truth
 
-- Use the official Open Source Guides site: `https://opensource.guide/`
+- Use the official Open Source Guides site: <https://opensource.guide/>
 - Use [`references/guide-map.md`](references/guide-map.md) to select the right topic quickly
 - Use [`references/persona-router.md`](references/persona-router.md) to infer the closest audience persona
 - Use [`references/attribution.md`](references/attribution.md) for source links, attribution, and license notes
@@ -155,7 +155,7 @@ Preferred format:
 
 `Why it applies: ...`
 
-`URL: https://opensource.guide/...`
+`URL: <https://opensource.guide/...>`
 
 ## Recommended Next Steps
 
@@ -181,7 +181,7 @@ You are an early-stage solo maintainer deciding whether your side project is rea
 
 Why it applies: It helps you decide whether to launch now and what basics to prepare first.
 
-URL: https://opensource.guide/starting-a-project/
+URL: <https://opensource.guide/starting-a-project/>
 
 ## Recommended Next Steps
 

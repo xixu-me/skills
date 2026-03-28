@@ -17,7 +17,7 @@ This skill is guidance-first but execution-aware:
 - If the user wants real setup work on the current machine, inspect first and adapt commands to the active shell and OS.
 - Pause before persistent edits such as `~/.claude/settings.json` or shell profile files.
 
-Read [references/doc-verified-notes.md](references/doc-verified-notes.md) before answering if you need to justify which parts come from the article and which parts were tightened against current LiteLLM docs.
+Read [`references/doc-verified-notes.md`](references/doc-verified-notes.md) before answering if you need to justify which parts come from the article and which parts were tightened against current LiteLLM docs.
 
 ## When To Use
 
@@ -209,7 +209,7 @@ If Claude Code reports model-not-found, 404-like failures, or LiteLLM says the m
 
 If LiteLLM never receives a request:
 
-- confirm `ANTHROPIC_BASE_URL` points to `http://localhost:4000`
+- confirm `ANTHROPIC_BASE_URL` points to <http://localhost:4000>
 - confirm LiteLLM is still running on that port
 - confirm the environment variables were set in the same shell session that launched `claude`
 - check local firewall or port conflicts if the URL is correct but still silent

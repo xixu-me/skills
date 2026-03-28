@@ -28,7 +28,7 @@ Before giving actionable commands, identify the distro family and verify the
 current package names, service units, config paths, and ACME-client guidance
 against official documentation for the user's distro and chosen tools.
 
-Open [references/workflow-map.md](references/workflow-map.md) first for the
+Open [`references/workflow-map.md`](references/workflow-map.md) first for the
 phase sequence, then open the narrower reference file you need.
 
 ## When to Use
@@ -150,15 +150,15 @@ For a hardening or troubleshooting review, provide:
 
 ## Reference Usage
 
-Use [references/workflow-map.md](references/workflow-map.md) for the phase map,
+Use [`references/workflow-map.md`](references/workflow-map.md) for the phase map,
 branching logic, and validation order.
 
-Use [references/distro-routing.md](references/distro-routing.md) when distro
+Use [`references/distro-routing.md`](references/distro-routing.md) when distro
 family, package manager, firewall tooling, or config layout matters.
 
-Use [references/nginx-patterns.md](references/nginx-patterns.md) when the user
+Use [`references/nginx-patterns.md`](references/nginx-patterns.md) when the user
 needs the static-site branch or the reverse-proxy branch.
 
-Use [references/security-and-tls.md](references/security-and-tls.md) for SSH
+Use [`references/security-and-tls.md`](references/security-and-tls.md) for SSH
 hardening sequence, firewall posture, certificate issuance, renewal, and
 redirect timing.

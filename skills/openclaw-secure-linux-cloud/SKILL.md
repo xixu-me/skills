@@ -22,7 +22,7 @@ This skill is for secure Linux cloud hosting. If the user only wants the
 fastest generic OpenClaw install on a local machine, prefer the official
 OpenClaw onboarding docs instead of forcing this flow.
 
-Open [references/REFERENCE.md](references/REFERENCE.md) when you need the
+Open [`references/REFERENCE.md`](references/REFERENCE.md) when you need the
 command matrix, baseline config shape, checklist, or access-path comparison.
 
 ## When To Use
@@ -149,7 +149,7 @@ For an access-path decision, provide:
 
 ## Reference Usage
 
-Use [references/REFERENCE.md](references/REFERENCE.md) when you need:
+Use [`references/REFERENCE.md`](references/REFERENCE.md) when you need:
 
 - The cross-distro hardening flow and Debian/Ubuntu example commands
 - The Podman-based OpenClaw setup outline

@@ -47,7 +47,7 @@ If you need a quick starting point, load `references/topic-map.md` and jump to t
 ### 2. Search official GitHub docs first
 
 - Treat `docs.github.com` as the source of truth.
-- Prefer pages under `https://docs.github.com/en/actions`.
+- Prefer pages under <https://docs.github.com/en/actions>.
 - Search with the user's exact terms plus a focused Actions phrase such as `workflow syntax`, `OIDC`, `reusable workflows`, or `self-hosted runners`.
 - When multiple pages are plausible, compare 2-3 candidate pages and pick the one that most directly answers the user's question.
 

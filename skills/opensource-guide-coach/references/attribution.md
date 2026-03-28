@@ -4,27 +4,27 @@ This skill is based on the official Open Source Guides project and should keep a
 
 ## Primary Sources
 
-- Open Source Guides site: `https://opensource.guide/`
-- Upstream repository: `https://github.com/github/opensource.guide`
-- Repository README: `https://github.com/github/opensource.guide/blob/main/README.md`
-- Personas: `https://github.com/github/opensource.guide/blob/main/docs/personas.md`
-- Content model: `https://github.com/github/opensource.guide/blob/main/docs/content-model.md`
-- Style guide: `https://github.com/github/opensource.guide/blob/main/docs/styleguide.md`
+- Open Source Guides site: <https://opensource.guide/>
+- Upstream repository: <https://github.com/github/opensource.guide>
+- Repository README: <https://github.com/github/opensource.guide/blob/main/README.md>
+- Personas: <https://github.com/github/opensource.guide/blob/main/docs/personas.md>
+- Content model: <https://github.com/github/opensource.guide/blob/main/docs/content-model.md>
+- Style guide: <https://github.com/github/opensource.guide/blob/main/docs/styleguide.md>
 
 ## Article URLs
 
-- `https://opensource.guide/starting-a-project/`
-- `https://opensource.guide/how-to-contribute/`
-- `https://opensource.guide/finding-users/`
-- `https://opensource.guide/building-community/`
-- `https://opensource.guide/best-practices/`
-- `https://opensource.guide/leadership-and-governance/`
-- `https://opensource.guide/getting-paid/`
-- `https://opensource.guide/code-of-conduct/`
-- `https://opensource.guide/metrics/`
-- `https://opensource.guide/legal/`
-- `https://opensource.guide/maintaining-balance-for-open-source-maintainers/`
-- `https://opensource.guide/security-best-practices-for-your-project/`
+- <https://opensource.guide/starting-a-project/>
+- <https://opensource.guide/how-to-contribute/>
+- <https://opensource.guide/finding-users/>
+- <https://opensource.guide/building-community/>
+- <https://opensource.guide/best-practices/>
+- <https://opensource.guide/leadership-and-governance/>
+- <https://opensource.guide/getting-paid/>
+- <https://opensource.guide/code-of-conduct/>
+- <https://opensource.guide/metrics/>
+- <https://opensource.guide/legal/>
+- <https://opensource.guide/maintaining-balance-for-open-source-maintainers/>
+- <https://opensource.guide/security-best-practices-for-your-project/>
 
 ## License Notes
 
