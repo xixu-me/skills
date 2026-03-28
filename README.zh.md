@@ -54,7 +54,7 @@ npx skills add xixu-me/skills
 | [`secure-linux-web-hosting`](./skills/secure-linux-web-hosting/SKILL.md)                               | 加固云服务器与网站托管的 DNS、SSH、反向代理、HTTPS 和安全自托管配置。                                                | `references/`             |
 | [`skills-cli`](./skills/skills-cli/SKILL.md)                                                           | 发现、安装、列出、备份、恢复、同步并管理 Agent Skills。                                                              | 无                        |
 | [`tzst`](./skills/tzst/SKILL.md)                                                                       | 安全地创建、解压、列出、校验、安装并脚该化 `tzst` CLI 的 `.tzst` 档案工作流。                                        | `references/`             |
-| [`use-my-browser`](./skills/use-my-browser/SKILL.md)                                                   | 操作用户当前的浏览器会话、承接 DevTools 上下文，并在公共网页工具、实时浏览器会话和干净浏览器上下文之间路由网页任务。 | `references/`             |
+| [`use-my-browser`](./skills/use-my-browser/README.zh.md)                                               | 操作用户当前的浏览器会话、承接 DevTools 上下文，并在公共网页工具、实时浏览器会话和干净浏览器上下文之间路由网页任务。 | `references/`             |
 | [`xdrop`](./skills/xdrop/SKILL.md)                                                                     | 通过终端上传到和下载自 Xdrop，并处理加密分享链接工作流。                                                             | `scripts/`                |
 | [`xget`](./skills/xget/SKILL.md)                                                                       | 将 Xget 加速能力应用到 URL、包管理器、存储库、容器、CI 和 AI SDK 等场景。                                            | `references/`, `scripts/` |
 
