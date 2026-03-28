@@ -75,6 +75,9 @@ npx skills add xixu-me/skills -s use-my-browser
 
 当智能体可以通过 Chrome DevTools MCP 复用你当前的 Chrome 会话时，该 skill 的效果最好。若要进行实时浏览器自动化，请先设置 Chrome 远程调试，然后配置 MCP 服务器，使其能自动连接到正在运行的浏览器。
 
+> [!IMPORTANT]
+> 开始前请先确保 Chrome 已经在运行。否则智能体可能无法连接到当前的浏览器会话，并可能回退到一个独立的隔离浏览器会话。
+
 在 Chrome (>=144) 中，访问 `chrome://inspect/#remote-debugging` 以启用远程调试。
 
 ![展示如何在 Chrome 中启用远程调试的截图](https://developer.chrome.com/static/blog/chrome-devtools-mcp-debug-your-browser-session/image/chrome-remote-debugging.png)

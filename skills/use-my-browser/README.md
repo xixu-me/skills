@@ -75,6 +75,9 @@ npx skills add xixu-me/skills -s use-my-browser
 
 This skill works best when the agent can reuse your current Chrome session through Chrome DevTools MCP. For live browser automation, set up Chrome remote debugging first, then configure the MCP server to attach automatically to the running browser.
 
+> [!IMPORTANT]
+> Make sure Chrome is already running before you start. Otherwise, the agent may be unable to attach to your current browser session and may fall back to a separate isolated browser session instead.
+
 In Chrome (>=144), navigate to `chrome://inspect/#remote-debugging` to enable remote debugging.
 
 ![Screenshot showing how to enable remote debugging in Chrome](https://developer.chrome.com/static/blog/chrome-devtools-mcp-debug-your-browser-session/image/chrome-remote-debugging.png)
