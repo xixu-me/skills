@@ -1,13 +1,13 @@
 ---
 name: secure-linux-web-hosting
-description: Use when setting up, hardening, or reviewing a Linux VPS or cloud server for self-hosting, including DNS, SSH, firewalls, Nginx, static-site hosting, reverse-proxying an app, HTTPS with Let's Encrypt or ACME clients, safe HTTP-to-HTTPS redirects, or optional post-launch network tuning such as BBR.
+description: Use when setting up, hardening, or reviewing a cloud server for self-hosting, including DNS, SSH, firewalls, Nginx, static-site hosting, reverse-proxying an app, HTTPS with Let's Encrypt or ACME clients, safe HTTP-to-HTTPS redirects, or optional post-launch network tuning such as BBR.
 ---
 
 # Secure Linux Web Hosting
 
 ## Overview
 
-Use this skill to turn a Linux cloud host into a safely reachable web host
+Use this skill to turn a cloud server into a safely reachable web host
 without leaning on stale distro-specific memory or outdated Debian-10-era
 tutorials.
 
@@ -28,14 +28,14 @@ Before giving actionable commands, identify the distro family and verify the
 current package names, service units, config paths, and ACME-client guidance
 against official documentation for the user's distro and chosen tools.
 
-Open [`references/workflow-map.md`](references/workflow-map.md) first for the
+Open [`references/workflow-map.md`](./references/workflow-map.md) first for the
 phase sequence, then open the narrower reference file you need.
 
 ## When to Use
 
 Use this skill when the user mentions any of the following:
 
-- a Linux VPS, VM, droplet, or cloud server they want to use for hosting
+- a cloud server, VM, droplet, or other Linux host they want to use for hosting
 - connecting a domain or DNS A/AAAA record to a server
 - SSH login, SSH hardening, root login, keys, ports, or firewall setup
 - installing or configuring Nginx for a website
@@ -150,15 +150,15 @@ For a hardening or troubleshooting review, provide:
 
 ## Reference Usage
 
-Use [`references/workflow-map.md`](references/workflow-map.md) for the phase map,
+Use [`references/workflow-map.md`](./references/workflow-map.md) for the phase map,
 branching logic, and validation order.
 
-Use [`references/distro-routing.md`](references/distro-routing.md) when distro
+Use [`references/distro-routing.md`](./references/distro-routing.md) when distro
 family, package manager, firewall tooling, or config layout matters.
 
-Use [`references/nginx-patterns.md`](references/nginx-patterns.md) when the user
+Use [`references/nginx-patterns.md`](./references/nginx-patterns.md) when the user
 needs the static-site branch or the reverse-proxy branch.
 
-Use [`references/security-and-tls.md`](references/security-and-tls.md) for SSH
+Use [`references/security-and-tls.md`](./references/security-and-tls.md) for SSH
 hardening sequence, firewall posture, certificate issuance, renewal, and
 redirect timing.

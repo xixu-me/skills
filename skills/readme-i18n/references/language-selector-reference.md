@@ -15,7 +15,7 @@ When adding a new selector, use these markers so future runs can update it in pl
 ```md
 <!-- README-I18N:START -->
 
-**English** | [汉语](README.zh.md) | [Español](README.es.md)
+**English** | [汉语](./README.zh.md) | [Español](./README.es.md)
 
 <!-- README-I18N:END -->
 ```
@@ -53,7 +53,7 @@ Current file: `README.md`
 ```md
 <!-- README-I18N:START -->
 
-**English** | [汉语](README.zh.md) | [Español](README.es.md)
+**English** | [汉语](./README.zh.md) | [Español](./README.es.md)
 
 <!-- README-I18N:END -->
 ```
@@ -63,7 +63,7 @@ Current file: `README.zh.md`
 ```md
 <!-- README-I18N:START -->
 
-[English](README.md) | **汉语** | [Español](README.es.md)
+[English](./README.md) | **汉语** | [Español](./README.es.md)
 
 <!-- README-I18N:END -->
 ```
@@ -73,7 +73,7 @@ Current file: `README.es.md`
 ```md
 <!-- README-I18N:START -->
 
-[English](README.md) | [汉语](README.zh.md) | **Español**
+[English](./README.md) | [汉语](./README.zh.md) | **Español**
 
 <!-- README-I18N:END -->
 ```

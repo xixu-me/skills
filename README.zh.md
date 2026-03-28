@@ -2,9 +2,7 @@
 
 **_[English](./README.md)_**
 
-由我维护的、用于实际工程工作的 [Agent Skills](https://agentskills.io)。
-
-本存储库会持续更新。我也在 [`xixu-me/xget`](https://github.com/xixu-me/xget) 和 [`xixu-me/xdrop`](https://github.com/xixu-me/xdrop) 中维护了它们附带的 skills。
+由我维护的、用于实际工程工作的 [Agent Skills](https://agentskills.io)。该存储库会持续更新。
 
 ## 如何使用
 
@@ -30,7 +28,7 @@ bunx skvlt restore --all
 
 ### 方案 2：直接添加存储库
 
-将本存储库作为 skill source 安装：
+将该存储库作为 skill source 安装：
 
 ```bash
 bunx skills add xixu-me/skills
@@ -42,35 +40,23 @@ bunx skills add xixu-me/skills
 npx skills add xixu-me/skills
 ```
 
-安装 `xixu-me/xget` 和 `xixu-me/xdrop` 中打包的 skill sources：
-
-```bash
-bunx skills add xixu-me/xget
-bunx skills add xixu-me/xdrop
-```
-
-或者：
-
-```bash
-npx skills add xixu-me/xget
-npx skills add xixu-me/xdrop
-```
-
 ## Skills 目录
 
-下表列出了此存储库及相关附带 skills 的存储库中维护的 skills。
+下表列出了此存储库中维护的 skills。
 
-| 名称                                                                                                 | 说明                                                                                            | 附带资源                  |
-| ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------- |
-| [github-actions-docs](./skills/github-actions-docs/SKILL.md)                                         | 基于官方文档，帮助编写、迁移、加固和排查 GitHub Actions workflows。                             | `references/`             |
-| [openclaw-secure-linux-cloud](./skills/openclaw-secure-linux-cloud/SKILL.md)                         | 为在 Linux VPS 或云服务器上安全自托管 OpenClaw 提供指导。                                       | `references/`             |
-| [opensource-guide-coach](./skills/opensource-guide-coach/SKILL.md)                                   | 为开源项目的启动、增长、治理、资助与长期维护提供辅导。                                          | `references/`             |
-| [readme-i18n](./skills/readme-i18n/SKILL.md)                                                         | 帮助翻译存储库 README、维护多语言 README 变体，并在不破坏 Markdown 结构的前提下添加语言切换器。 | `references/`             |
-| [running-claude-code-via-litellm-copilot](./skills/running-claude-code-via-litellm-copilot/SKILL.md) | 帮助通过 LiteLLM 和 GitHub Copilot 路由 Claude Code，包括安装配置与排障。                       | `references/`             |
-| [secure-linux-web-hosting](./skills/secure-linux-web-hosting/SKILL.md)                               | 提供 DNS、SSH、反向代理、HTTPS 和安全自托管相关的 Linux VPS / Web Hosting 实践指南。            | `references/`             |
-| [skills-cli](./skills/skills-cli/SKILL.md)                                                           | 帮助发现、安装、列出、备份、恢复、同步和管理 Agent Skills。                                     | 无                        |
-| [xget](https://github.com/xixu-me/xget/blob/main/skills/xget/SKILL.md)                               | 面向执行的 skill，用于将 Xget 加速能力应用到 URL、包管理器、存储库、容器、CI 和 AI SDK 等场景。 | `references/`, `scripts/` |
-| [xdrop](https://github.com/xixu-me/xdrop/blob/main/skills/xdrop/SKILL.md)                            | 通过终端上传到和下载自 Xdrop 的 skill，也覆盖加密分享链接工作流。                               | `scripts/`                |
+| 名称                                                                                                 | 说明                                                                                                                 | 附带资源                  |
+| ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| [github-actions-docs](./skills/github-actions-docs/SKILL.md)                                         | 基于官方文档编写、迁移、加固并排查 GitHub Actions workflows。                                                        | `references/`             |
+| [openclaw-secure-linux-cloud](./skills/openclaw-secure-linux-cloud/SKILL.md)                         | 在云服务器上安全地自托管 OpenClaw。                                                                                  | `references/`             |
+| [opensource-guide-coach](./skills/opensource-guide-coach/SKILL.md)                                   | 启动、发展、治理、资助并长期维护开源项目。                                                                           | `references/`             |
+| [readme-i18n](./skills/readme-i18n/SKILL.md)                                                         | 翻译存储库 README、维护多语言 README 变体，并在不破坏 Markdown 结构的前提下添加语言切换器。                          | `references/`             |
+| [running-claude-code-via-litellm-copilot](./skills/running-claude-code-via-litellm-copilot/SKILL.md) | 通过 LiteLLM 和 GitHub Copilot 路由 Claude Code，并完成安装配置与排障。                                              | `references/`             |
+| [secure-linux-web-hosting](./skills/secure-linux-web-hosting/SKILL.md)                               | 加固云服务器与网站托管的 DNS、SSH、反向代理、HTTPS 和安全自托管配置。                                                | `references/`             |
+| [skills-cli](./skills/skills-cli/SKILL.md)                                                           | 发现、安装、列出、备份、恢复、同步并管理 Agent Skills。                                                              | 无                        |
+| [tzst](./skills/tzst/SKILL.md)                                                                       | 安全地创建、解压、列出、校验、安装并脚该化 `tzst` CLI 的 `.tzst` 档案工作流。                                        | `references/`             |
+| [use-my-browser](./skills/use-my-browser/SKILL.md)                                                   | 操作用户当前的浏览器会话、承接 DevTools 上下文，并在公共网页工具、实时浏览器会话和干净浏览器上下文之间路由网页任务。 | `references/`             |
+| [xdrop](./skills/xdrop/SKILL.md)                                                                     | 通过终端上传到和下载自 Xdrop，并处理加密分享链接工作流。                                                             | `scripts/`                |
+| [xget](./skills/xget/SKILL.md)                                                                       | 将 Xget 加速能力应用到 URL、包管理器、存储库、容器、CI 和 AI SDK 等场景。                                            | `references/`, `scripts/` |
 
 ## 存储库结构
 
@@ -88,7 +74,7 @@ skills/
 
 ## 说明
 
-- 本存储库会随着新工作流的出现持续演进。
+- 该存储库会随着新工作流的出现持续演进。
 - `xixu-me/skvlt` 是恢复一套经过审阅的常用基线最简单的方式。
 - 如果你只想使用某个特定源存储库，直接通过 `bunx` 或 `npx` 安装会更合适。
 

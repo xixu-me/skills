@@ -1,6 +1,6 @@
 ---
 name: openclaw-secure-linux-cloud
-description: Use when self-hosting OpenClaw on a Linux VPS or cloud server, hardening a remote OpenClaw gateway, choosing between SSH tunneling, Tailscale, or reverse-proxy exposure, or reviewing Podman, pairing, sandboxing, token auth, and tool-permission defaults for a secure personal deployment.
+description: Use when self-hosting OpenClaw on a cloud server, hardening a remote OpenClaw gateway, choosing between SSH tunneling, Tailscale, or reverse-proxy exposure, or reviewing Podman, pairing, sandboxing, token auth, and tool-permission defaults for a secure personal deployment.
 ---
 
 # OpenClaw Secure Linux Cloud
@@ -8,7 +8,7 @@ description: Use when self-hosting OpenClaw on a Linux VPS or cloud server, hard
 ## Overview
 
 Use this skill for the conservative "deploy first, expose later" pattern for
-OpenClaw on a Linux cloud host.
+OpenClaw on a cloud server.
 
 Default to a private control plane:
 
@@ -22,14 +22,14 @@ This skill is for secure Linux cloud hosting. If the user only wants the
 fastest generic OpenClaw install on a local machine, prefer the official
 OpenClaw onboarding docs instead of forcing this flow.
 
-Open [`references/REFERENCE.md`](references/REFERENCE.md) when you need the
+Open [`references/REFERENCE.md`](./references/REFERENCE.md) when you need the
 command matrix, baseline config shape, checklist, or access-path comparison.
 
 ## When To Use
 
 Use this skill when the user mentions any of the following:
 
-- OpenClaw on a Linux server, VPS, VM, or cloud instance
+- OpenClaw on a cloud server, VM, or other Linux host
 - Secure self-hosting, hardening, or "run it privately"
 - Podman, loopback binding, SSH tunneling, or remote Control UI access
 - Tailscale vs reverse proxy for OpenClaw
@@ -149,7 +149,7 @@ For an access-path decision, provide:
 
 ## Reference Usage
 
-Use [`references/REFERENCE.md`](references/REFERENCE.md) when you need:
+Use [`references/REFERENCE.md`](./references/REFERENCE.md) when you need:
 
 - The cross-distro hardening flow and Debian/Ubuntu example commands
 - The Podman-based OpenClaw setup outline

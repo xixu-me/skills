@@ -51,7 +51,7 @@ If target languages are not named, inspect existing translated files, selectors,
 
 ### 2. Audit the Markdown structure before translating
 
-Read the source README once as structure, not prose. Open [`references/preservation-checklist.md`](references/preservation-checklist.md) and inventory the elements most likely to break:
+Read the source README once as structure, not prose. Open [`references/preservation-checklist.md`](./references/preservation-checklist.md) and inventory the elements most likely to break:
 
 - headings and heading levels
 - badge rows, shields URLs, and image links
@@ -118,7 +118,7 @@ If the repo already uses a different multilingual naming pattern, keep using it 
 
 ### 7. Insert or update the language selector
 
-Open [`references/language-selector-reference.md`](references/language-selector-reference.md) before editing selectors.
+Open [`references/language-selector-reference.md`](./references/language-selector-reference.md) before editing selectors.
 
 Placement:
 

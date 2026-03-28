@@ -17,7 +17,7 @@ This skill is guidance-first but execution-aware:
 - If the user wants real setup work on the current machine, inspect first and adapt commands to the active shell and OS.
 - Pause before persistent edits such as `~/.claude/settings.json` or shell profile files.
 
-Read [`references/doc-verified-notes.md`](references/doc-verified-notes.md) before answering if you need to justify which parts come from the article and which parts were tightened against current LiteLLM docs.
+Read [`references/doc-verified-notes.md`](./references/doc-verified-notes.md) before answering if you need to justify which parts come from the article and which parts were tightened against current LiteLLM docs.
 
 ## When To Use
 

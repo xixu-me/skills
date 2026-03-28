@@ -2,9 +2,7 @@
 
 **_[汉语](./README.zh.md)_**
 
-[Agent Skills](https://agentskills.io) maintained by me for practical engineering work.
-
-This repository is continuously updated. I also maintain bundled skills in [`xixu-me/xget`](https://github.com/xixu-me/xget) and [`xixu-me/xdrop`](https://github.com/xixu-me/xdrop).
+[Agent Skills](https://agentskills.io) maintained by me for practical engineering work. This repository is continuously updated.
 
 ## How To Use
 
@@ -42,35 +40,23 @@ or:
 npx skills add xixu-me/skills
 ```
 
-Install the bundled skill sources from `xixu-me/xget` and `xixu-me/xdrop`:
-
-```bash
-bunx skills add xixu-me/xget
-bunx skills add xixu-me/xdrop
-```
-
-or:
-
-```bash
-npx skills add xixu-me/xget
-npx skills add xixu-me/xdrop
-```
-
 ## Skills Catalog
 
-The table below lists the skills maintained across this repository and the related bundled-skill repositories.
+The table below lists the skills maintained in this repository.
 
-| Name                                                                                                 | Description                                                                                                                                     | Bundled Assets            |
-| ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| [github-actions-docs](./skills/github-actions-docs/SKILL.md)                                         | Official-docs-grounded help for writing, migrating, securing, and troubleshooting GitHub Actions workflows.                                     | `references/`             |
-| [openclaw-secure-linux-cloud](./skills/openclaw-secure-linux-cloud/SKILL.md)                         | Guidance for securely self-hosting OpenClaw on Linux VPS or cloud servers.                                                                      | `references/`             |
-| [opensource-guide-coach](./skills/opensource-guide-coach/SKILL.md)                                   | Coaching for starting, growing, governing, funding, and sustaining open source projects.                                                        | `references/`             |
-| [readme-i18n](./skills/readme-i18n/SKILL.md)                                                         | Help for translating repository READMEs, adding localized README variants, and wiring a language selector without breaking Markdown mechanics.  | `references/`             |
-| [running-claude-code-via-litellm-copilot](./skills/running-claude-code-via-litellm-copilot/SKILL.md) | Help for routing Claude Code through LiteLLM and GitHub Copilot, including setup and troubleshooting.                                           | `references/`             |
-| [secure-linux-web-hosting](./skills/secure-linux-web-hosting/SKILL.md)                               | Practical Linux VPS and web hosting hardening for DNS, SSH, reverse proxies, HTTPS, and safe self-hosting.                                      | `references/`             |
-| [skills-cli](./skills/skills-cli/SKILL.md)                                                           | Help for discovering, installing, listing, backing up, restoring, syncing, and managing Agent Skills.                                           | None                      |
-| [xget](https://github.com/xixu-me/xget/blob/main/skills/xget/SKILL.md)                               | Execution-focused skill for configuring and applying Xget acceleration to URLs, package managers, registries, containers, CI, and AI SDKs, etc. | `references/`, `scripts/` |
-| [xdrop](https://github.com/xixu-me/xdrop/blob/main/skills/xdrop/SKILL.md)                            | Skill for uploading to and downloading from Xdrop through the terminal, including encrypted share-link workflows.                               | `scripts/`                |
+| Name                                                                                                 | Description                                                                                                                                                                    | Bundled Assets            |
+| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
+| [github-actions-docs](./skills/github-actions-docs/SKILL.md)                                         | Write, migrate, secure, and troubleshoot GitHub Actions workflows with official docs.                                                                                          | `references/`             |
+| [openclaw-secure-linux-cloud](./skills/openclaw-secure-linux-cloud/SKILL.md)                         | Securely self-host OpenClaw on cloud servers.                                                                                                                                  | `references/`             |
+| [opensource-guide-coach](./skills/opensource-guide-coach/SKILL.md)                                   | Start, grow, govern, fund, and sustain open source projects.                                                                                                                   | `references/`             |
+| [readme-i18n](./skills/readme-i18n/SKILL.md)                                                         | Translate repository READMEs, maintain localized variants, and add a language selector without breaking Markdown mechanics.                                                    | `references/`             |
+| [running-claude-code-via-litellm-copilot](./skills/running-claude-code-via-litellm-copilot/SKILL.md) | Route Claude Code through LiteLLM and GitHub Copilot, including setup and troubleshooting.                                                                                     | `references/`             |
+| [secure-linux-web-hosting](./skills/secure-linux-web-hosting/SKILL.md)                               | Harden cloud servers and web hosting for DNS, SSH, reverse proxies, HTTPS, and safe self-hosting.                                                                              | `references/`             |
+| [skills-cli](./skills/skills-cli/SKILL.md)                                                           | Discover, install, list, back up, restore, sync, and manage Agent Skills.                                                                                                      | None                      |
+| [tzst](./skills/tzst/SKILL.md)                                                                       | Create, extract, list, test, install, and script `tzst` CLI workflows for `.tzst` archives safely.                                                                             | `references/`             |
+| [use-my-browser](./skills/use-my-browser/SKILL.md)                                                   | Operate the user's current browser session, continue from DevTools context, and route web tasks across public-web tools, the live browser session, and clean browser contexts. | `references/`             |
+| [xdrop](./skills/xdrop/SKILL.md)                                                                     | Upload to and download from Xdrop through the terminal, including encrypted share-link workflows.                                                                              | `scripts/`                |
+| [xget](./skills/xget/SKILL.md)                                                                       | Configure and apply Xget acceleration to URLs, package managers, registries, containers, CI, and AI SDKs.                                                                      | `references/`, `scripts/` |
 
 ## Repository Layout
 
