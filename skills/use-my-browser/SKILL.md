@@ -35,7 +35,7 @@ Before choosing a browsing layer:
 - If the task is public and citation-heavy, start with `web`.
 - If the task needs the live browser session, confirm the Chrome DevTools connection is usable before depending on it.
 - If a domain note exists under `references/site-patterns/`, read it before browsing that site.
-- Use [session-playbook.md](./references/session-playbook.md) for live-browser-session fallback and recovery rules.
+- Use [`references/session-playbook.md`](./references/session-playbook.md) for live-browser-session fallback and recovery rules.
 
 ## First Principles
 
@@ -55,7 +55,7 @@ Use the lowest-cost layer that can still reach the goal:
 - processed or raw reads when you need cheaper content extraction or source-level response data
 - browser tools when the task depends on live state, interaction, or rendered evidence
 
-Use [tool-matrix.md](./references/tool-matrix.md) for the detailed routing rules.
+Use [`references/tool-matrix.md`](./references/tool-matrix.md) for the detailed routing rules.
 
 ### 3. Treat every result as evidence
 
@@ -123,7 +123,7 @@ When a task depends on the user's current browser session:
 5. Use `evaluate_script`, network tools, console tools, and performance tools as the primary evidence sources.
 6. Use screenshots only when the visual state itself matters or the DOM does not expose enough information.
 
-Read [browser-recipes.md](./references/browser-recipes.md) for concrete tool mappings and equivalent browser operations.
+Read [`references/browser-recipes.md`](./references/browser-recipes.md) for concrete tool mappings and equivalent browser operations.
 
 ## Chrome DevTools Handoff Patterns
 
@@ -153,7 +153,7 @@ If the user is already on the problem page:
 
 ## Extraction and Interaction Rules
 
-Read [session-playbook.md](./references/session-playbook.md) for the detailed patterns. The short version:
+Read [`references/session-playbook.md`](./references/session-playbook.md) for the detailed patterns. The short version:
 
 - Prefer DOM and network evidence over OCR.
 - Prefer `take_snapshot` over `take_screenshot` for interaction planning.
@@ -167,7 +167,7 @@ This skill should not collapse into "always use the browser."
 
 - Public-web tasks still belong to this skill when the main question is "which layer should I use first?"
 - Start with public-web tools for citation-heavy work and escalate only when the cheaper path cannot reach the goal.
-- Use [tool-matrix.md](./references/tool-matrix.md) for the routing decision and [browser-recipes.md](./references/browser-recipes.md) for the concrete operations.
+- Use [`references/tool-matrix.md`](./references/tool-matrix.md) for the routing decision and [`references/browser-recipes.md`](./references/browser-recipes.md) for the concrete operations.
 
 ## Parallel Research Policy
 
@@ -176,7 +176,7 @@ For multiple independent public research targets:
 - Batch `web.search_query` requests in one call when possible.
 - Batch `web.open` calls when reading several sources.
 - Use `multi_tool_use.parallel` for independent shell or local-doc reads, not for browser steps that depend on the same selected page state.
-- Use [session-playbook.md](./references/session-playbook.md) for the rules on when agent-level parallelism is worth it and how to frame it safely.
+- Use [`references/session-playbook.md`](./references/session-playbook.md) for the rules on when agent-level parallelism is worth it and how to frame it safely.
 
 ## Red Flags
 
@@ -211,7 +211,7 @@ Stop and change approach if you notice any of these:
 
 ## Reference Files
 
-- [tool-matrix.md](./references/tool-matrix.md): choose between `web`, `chrome-devtools`, `playwright`, and raw-fetch paths.
-- [session-playbook.md](./references/session-playbook.md): tab hygiene, DOM/media extraction, login handling, and fallback tactics.
-- [browser-recipes.md](./references/browser-recipes.md): concrete browser operations for tab control, extraction, interaction, and audits.
-- [site-patterns/README.md](./references/site-patterns/README.md): format for validated domain-specific notes.
+- [`references/tool-matrix.md`](./references/tool-matrix.md): choose between `web`, `chrome-devtools`, `playwright`, and raw-fetch paths.
+- [`references/session-playbook.md`](./references/session-playbook.md): tab hygiene, DOM/media extraction, login handling, and fallback tactics.
+- [`references/browser-recipes.md`](./references/browser-recipes.md): concrete browser operations for tab control, extraction, interaction, and audits.
+- [`references/site-patterns/README.md`](./references/site-patterns/README.md): format for validated domain-specific notes.
