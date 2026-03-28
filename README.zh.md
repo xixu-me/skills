@@ -65,6 +65,7 @@ npx skills add xixu-me/xdrop
 | [github-actions-docs](./skills/github-actions-docs/SKILL.md)                                         | 基于官方文档，帮助编写、迁移、加固和排查 GitHub Actions workflows。                             | `references/`             |
 | [openclaw-secure-linux-cloud](./skills/openclaw-secure-linux-cloud/SKILL.md)                         | 为在 Linux VPS 或云服务器上安全自托管 OpenClaw 提供指导。                                       | `references/`             |
 | [opensource-guide-coach](./skills/opensource-guide-coach/SKILL.md)                                   | 为开源项目的启动、增长、治理、资助与长期维护提供辅导。                                          | `references/`             |
+| [readme-i18n](./skills/readme-i18n/SKILL.md)                                                         | 帮助翻译存储库 README、维护多语言 README 变体，并在不破坏 Markdown 结构的前提下添加语言切换器。 | `references/`             |
 | [running-claude-code-via-litellm-copilot](./skills/running-claude-code-via-litellm-copilot/SKILL.md) | 帮助通过 LiteLLM 和 GitHub Copilot 路由 Claude Code，包括安装配置与排障。                       | `references/`             |
 | [secure-linux-web-hosting](./skills/secure-linux-web-hosting/SKILL.md)                               | 提供 DNS、SSH、反向代理、HTTPS 和安全自托管相关的 Linux VPS / Web Hosting 实践指南。            | `references/`             |
 | [skills-cli](./skills/skills-cli/SKILL.md)                                                           | 帮助发现、安装、列出、备份、恢复、同步和管理 Agent Skills。                                     | 无                        |
