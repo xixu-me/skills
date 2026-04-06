@@ -1,6 +1,7 @@
 {
   "name": "xixu-me-skills",
   "private": true,
+  "packageManager": "bun@1.3.11",
   "description": "Formatting helpers for this Agent Skills repository",
   "scripts": {
     "format:md": "prettier --write \"**/*.md\"",

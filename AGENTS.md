@@ -11,7 +11,7 @@ This repository maintains a curated set of Agent Skills for practical engineerin
 Key technologies:
 
 - Markdown for all skill instructions and references
-- Node.js + npm for repository tooling
+- Bun for repository tooling
 - Prettier for Markdown formatting checks
 - GitHub Actions for CI formatting validation and optional formatting fixes
 
@@ -39,19 +39,19 @@ Top-level files to keep in sync when relevant:
 Install the repository tooling:
 
 ```bash
-npm ci
+bun install
 ```
 
 Check Markdown formatting:
 
 ```bash
-npm run check:md
+bun run check:md
 ```
 
 Format Markdown files in place:
 
 ```bash
-npm run format:md
+bun run format:md
 ```
 
 ## Development Workflow
@@ -74,19 +74,19 @@ There is no unit test suite in this repository today. The primary validation is 
 Before finishing a change, run:
 
 ```bash
-npm run check:md
+bun run check:md
 ```
 
 If formatting fails, run:
 
 ```bash
-npm run format:md
+bun run format:md
 ```
 
 Then re-run:
 
 ```bash
-npm run check:md
+bun run check:md
 ```
 
 If you changed workflow or package metadata, make sure those files still align with the commands above:
@@ -120,7 +120,7 @@ There is no application deployment pipeline in this repository.
 
 Before opening or updating a PR:
 
-- Run `npm run check:md`.
+- Run `bun run check:md`.
 - If you added a new skill, verify its folder matches the expected layout.
 - Verify README catalog entries and links still resolve.
 - Keep changes scoped to the skill or documentation you intended to modify.
