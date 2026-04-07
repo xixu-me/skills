@@ -3,8 +3,6 @@ name: readme-i18n
 description: Use when the user wants to translate a repository README, make a repo multilingual, localize docs, add a language switcher, internationalize the README, or update localized README variants in a GitHub-style repository.
 ---
 
-# README Internationalization (i18n)
-
 Localize a repository `README.md` without breaking the repo mechanics around it.
 
 The default job is translate + wire-up:

@@ -3,8 +3,6 @@ name: develop-userscripts
 description: Use when building, debugging, packaging, or publishing browser userscripts for Tampermonkey or ScriptCat, including GM APIs, metadata blocks, permission issues, @match/@grant/@connect setup, ScriptCat background or scheduled scripts, UserConfig blocks, or subscription workflows.
 ---
 
-# Develop Userscripts
-
 Userscript work usually breaks at the runtime and metadata boundary, not in the page logic. Choose the runtime first, declare the minimum permissions up front, then debug in the environment where the script actually runs.
 
 ## When to Use

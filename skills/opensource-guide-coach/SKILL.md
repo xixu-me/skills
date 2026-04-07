@@ -3,8 +3,6 @@ name: opensource-guide-coach
 description: Use when a user wants guidance on starting, contributing to, growing, governing, funding, securing, or sustaining an open source project, or asks about contributor onboarding, community health, maintainer burnout, code of conduct, metrics, legal basics, or open source project adoption.
 ---
 
-# Open Source Guide Coach
-
 ## Overview
 
 Use the official Open Source Guides as a coaching framework for open source questions.

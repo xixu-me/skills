@@ -3,8 +3,6 @@ name: openclaw-secure-linux-cloud
 description: Use when self-hosting OpenClaw on a cloud server, hardening a remote OpenClaw gateway, choosing between SSH tunneling, Tailscale, or reverse-proxy exposure, or reviewing Podman, pairing, sandboxing, token auth, and tool-permission defaults for a secure personal deployment.
 ---
 
-# OpenClaw Secure Linux Cloud
-
 ## Overview
 
 Use this skill for the conservative "deploy first, expose later" pattern for

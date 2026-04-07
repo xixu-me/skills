@@ -3,8 +3,6 @@ name: xdrop
 description: Use this skill when the user wants to send or fetch files through an Xdrop server from the terminal, asks to automate encrypted Xdrop share-link workflows, provides an Xdrop `/t/:transferId#k=...` link to download and decrypt locally, or needs Xdrop CLI flags such as `--quiet`, `--json`, `--expires-in`, `--output`, or `--api-url`, even if they do not explicitly mention the skill name.
 ---
 
-# Xdrop
-
 Use the bundled scripts inside this skill directory.
 
 ## Available scripts

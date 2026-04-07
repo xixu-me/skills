@@ -3,8 +3,6 @@ name: skills-cli
 description: Use when users ask to discover, install, list, check, update, remove, back up, restore, sync, or initialize Agent Skills, mention `bunx skills`, `npx skills`, `skills.sh`, or `skills-lock.json`, ask "find a skill for X", or want help extending agent capabilities with installable skills.
 ---
 
-# Skills CLI
-
 Use this skill to help users work with the open Agent Skills ecosystem through the `skills` CLI.
 
 ## Overview

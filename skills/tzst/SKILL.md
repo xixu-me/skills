@@ -3,8 +3,6 @@ name: tzst
 description: Use when the user needs to create, extract, flatten, list, test, install, script, or troubleshoot `tzst` CLI workflows for `.tzst` or `.tar.zst` archives, including compression levels, streaming mode, extraction filters, conflict resolution, JSON output, or standalone binary setup, even if they describe the archive task without naming `tzst`.
 ---
 
-# tzst
-
 Use this skill for the `tzst` command-line interface. Default to execution when the user clearly wants a real archive action and the required paths or archive names are already known.
 
 This skill is CLI-only. If the user is asking about Python code such as `from tzst import ...`, treat that as a general Python library or API documentation task instead of using this skill as the main guide.

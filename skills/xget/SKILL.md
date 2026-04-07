@@ -8,8 +8,6 @@ description:
   environments, shells, or base URLs.
 ---
 
-# Xget
-
 Default to execution, not instruction. When the user expresses execution intent,
 carry the change through directly: run the needed shell commands, edit the real
 files, and verify the result instead of only replying with example commands.

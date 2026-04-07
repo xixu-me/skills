@@ -3,8 +3,6 @@ name: running-claude-code-via-litellm-copilot
 description: Use when routing Claude Code through a local LiteLLM proxy to GitHub Copilot, reducing direct Anthropic spend, configuring ANTHROPIC_BASE_URL or ANTHROPIC_MODEL overrides, or troubleshooting Copilot proxy setup failures such as model-not-found, no localhost traffic, or GitHub 401/403 auth errors.
 ---
 
-# Running Claude Code via LiteLLM and GitHub Copilot
-
 ## Overview
 
 Use this skill for the specific workaround where Claude Code keeps its Anthropic-shaped client behavior, but the actual backend traffic is sent to a local LiteLLM proxy and then forwarded to GitHub Copilot.

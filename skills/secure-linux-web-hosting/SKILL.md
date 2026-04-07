@@ -3,8 +3,6 @@ name: secure-linux-web-hosting
 description: Use when setting up, hardening, or reviewing a cloud server for self-hosting, including DNS, SSH, firewalls, Nginx, static-site hosting, reverse-proxying an app, HTTPS with Let's Encrypt or ACME clients, safe HTTP-to-HTTPS redirects, or optional post-launch network tuning such as BBR.
 ---
 
-# Secure Linux Web Hosting
-
 ## Overview
 
 Use this skill to turn a cloud server into a safely reachable web host

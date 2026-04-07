@@ -4,8 +4,6 @@ description: Use when the user wants browser automation, page inspection, or web
 compatibility: Environment with chrome-devtools, web, playwright, shell_command, and multi_tool_use.parallel available.
 ---
 
-# Use My Browser
-
 This is the main browser automation strategy skill for nontrivial web work. It teaches the agent when to stay on public-web tools, when to use the live browser session, and when to fall back to a separate browser or raw-fetch path.
 
 Despite the name, it covers more than "use my current browser." It also teaches a broader browsing philosophy: define the goal first, choose the right network layer, treat results as evidence, prefer primary sources over recycled summaries, and keep live-session work minimally intrusive.
