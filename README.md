@@ -2,6 +2,9 @@
 
 **_[汉语](./README.zh.md)_**
 
+> [!TIP]
+> 欢迎加入“Xget 开源与 AI 交流群”，一起交流开源项目、AI 应用、工程实践、效率工具和独立开发；如果你也在做产品、写代码、折腾项目或者对开源和 AI 感兴趣，欢迎[**进群**](https://file.xi-xu.me/QR%20Codes/%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png)认识更多认真做事、乐于分享的朋友。
+
 [Agent Skills](https://agentskills.io) maintained by me for practical engineering work. This repository is continuously updated.
 
 ## How To Use
