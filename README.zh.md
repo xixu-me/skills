@@ -47,20 +47,20 @@ npx skills add xixu-me/skills
 
 下表列出了此存储库中维护的 skills。
 
-| 名称                                                                                                   | 说明                                                                                                                       | 附带资源                  |
-| ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| [`develop-userscripts`](./skills/develop-userscripts/SKILL.md)                                         | 为 Tampermonkey 和 ScriptCat 编写、调试、打包并发布浏览器 userscripts，包括 ScriptCat 的后台、定时、用户配置和订阅工作流。 | `references/`             |
-| [`github-actions-docs`](./skills/github-actions-docs/SKILL.md)                                         | 基于官方文档编写、迁移、加固并排查 GitHub Actions workflows。                                                              | `references/`             |
-| [`openclaw-secure-linux-cloud`](./skills/openclaw-secure-linux-cloud/SKILL.md)                         | 在云服务器上安全地自托管 OpenClaw。                                                                                        | `references/`             |
-| [`opensource-guide-coach`](./skills/opensource-guide-coach/SKILL.md)                                   | 启动、发展、治理、资助并长期维护开源项目。                                                                                 | `references/`             |
-| [`readme-i18n`](./skills/readme-i18n/SKILL.md)                                                         | 翻译存储库 README、维护多语言 README 变体，并在不破坏 Markdown 结构的前提下添加语言切换器。                                | `references/`             |
-| [`running-claude-code-via-litellm-copilot`](./skills/running-claude-code-via-litellm-copilot/SKILL.md) | 通过 LiteLLM 和 GitHub Copilot 路由 Claude Code，并完成安装配置与排障。                                                    | `references/`             |
-| [`secure-linux-web-hosting`](./skills/secure-linux-web-hosting/SKILL.md)                               | 加固云服务器与网站托管的 DNS、SSH、反向代理、HTTPS 和安全自托管配置。                                                      | `references/`             |
-| [`skills-cli`](./skills/skills-cli/SKILL.md)                                                           | 发现、安装、列出、备份、恢复、同步并管理 Agent Skills。                                                                    | 无                        |
-| [`tzst`](./skills/tzst/SKILL.md)                                                                       | 安全地创建、解压、列出、校验、安装并脚该化 `tzst` CLI 的 `.tzst` 档案工作流。                                              | `references/`             |
-| [`use-my-browser`](./skills/use-my-browser/README.zh.md)                                               | 操作用户当前的浏览器会话、承接 DevTools 上下文，并在公共网页工具、实时浏览器会话和干净浏览器上下文之间路由网页任务。       | `references/`             |
-| [`xdrop`](./skills/xdrop/SKILL.md)                                                                     | 通过终端上传到和下载自 Xdrop，并处理加密分享链接工作流。                                                                   | `scripts/`                |
-| [`xget`](./skills/xget/SKILL.md)                                                                       | 将 Xget 加速能力应用到 URL、包管理器、存储库、容器、CI 和 AI SDK 等场景。                                                  | `references/`, `scripts/` |
+| 名称                                                                                                   | 说明                                                                                                                                 | 附带资源                  |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
+| [`develop-userscripts`](./skills/develop-userscripts/SKILL.md)                                         | 为 Tampermonkey 和 ScriptCat 编写、调试、打包并发布浏览器 userscripts，包括 ScriptCat 的后台、定时、用户配置和订阅工作流。           | `references/`             |
+| [`github-actions-docs`](./skills/github-actions-docs/SKILL.md)                                         | 基于官方文档编写、迁移、加固并排查 GitHub Actions workflows。                                                                        | `references/`             |
+| [`openclaw-secure-linux-cloud`](./skills/openclaw-secure-linux-cloud/SKILL.md)                         | 在云服务器上安全地自托管 OpenClaw。                                                                                                  | `references/`             |
+| [`opensource-guide-coach`](./skills/opensource-guide-coach/SKILL.md)                                   | 启动、发展、治理、资助并长期维护开源项目。                                                                                           | `references/`             |
+| [`readme-i18n`](./skills/readme-i18n/SKILL.md)                                                         | 翻译存储库 README、维护多语言 README 变体，并在不破坏 Markdown 结构的前提下添加语言切换器。                                          | `references/`             |
+| [`running-claude-code-via-litellm-copilot`](./skills/running-claude-code-via-litellm-copilot/SKILL.md) | 通过 LiteLLM 和 GitHub Copilot 路由 Claude Code，并完成安装配置与排障。                                                              | `references/`             |
+| [`secure-linux-web-hosting`](./skills/secure-linux-web-hosting/SKILL.md)                               | 加固云服务器与网站托管的 DNS、SSH、反向代理、HTTPS 和安全自托管配置。                                                                | `references/`             |
+| [`skills-cli`](./skills/skills-cli/SKILL.md)                                                           | 发现、安装、列出、备份、恢复、同步并管理 Agent Skills。                                                                              | 无                        |
+| [`tzst`](./skills/tzst/SKILL.md)                                                                       | 安全地创建、解压、列出、校验、安装并脚该化 `tzst` CLI 的 `.tzst` 档案工作流。                                                        | `references/`             |
+| [`use-my-browser`](./skills/use-my-browser/SKILL.md)                                                   | 当工作依赖用户当前浏览器里的渲染结果、登录态流程、上传下载、媒体内容、DOM 检查或仅在浏览器中出现的故障时，使用用户的实时浏览器会话。 | `references/`             |
+| [`xdrop`](./skills/xdrop/SKILL.md)                                                                     | 通过终端上传到和下载自 Xdrop，并处理加密分享链接工作流。                                                                             | `scripts/`                |
+| [`xget`](./skills/xget/SKILL.md)                                                                       | 将 Xget 加速能力应用到 URL、包管理器、存储库、容器、CI 和 AI SDK 等场景。                                                            | `references/`, `scripts/` |
 
 ## 存储库结构
 
