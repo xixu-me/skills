@@ -7,6 +7,8 @@
 
 [Agent Skills](https://agentskills.io) maintained by me for practical engineering work. This repository is continuously updated.
 
+[![skills.sh](https://skills.sh/b/xixu-me/skills)](https://skills.sh/xixu-me/skills)
+
 ## How To Use
 
 You can use these skills in two ways:

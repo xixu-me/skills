@@ -7,6 +7,8 @@
 
 由我维护的、用于实际工程工作的 [Agent Skills](https://agentskills.io)。该存储库会持续更新。
 
+[![skills.sh](https://skills.sh/b/xixu-me/skills)](https://skills.sh/xixu-me/skills)
+
 ## 如何使用
 
 你可以通过两种方式使用这些 skills：
