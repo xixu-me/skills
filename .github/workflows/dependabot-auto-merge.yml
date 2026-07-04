@@ -23,6 +23,7 @@ permissions:
 jobs:
   merge:
     name: Auto-merge Dependabot PRs
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && startsWith(github.event.workflow_run.head_branch, 'dependabot/'))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -53,7 +54,12 @@ jobs:
 
             const findCandidatePulls = async () => {
               const branch = context.payload.workflow_run?.head_branch;
-              if (context.eventName === "workflow_run" && branch) {
+              if (context.eventName === "workflow_run") {
+                if (!String(branch || "").startsWith("dependabot/")) {
+                  core.info("Workflow run was for " + (branch || "an unknown branch") + "; skipping non-Dependabot branch.");
+                  return [];
+                }
+
                 const { data: pulls } = await github.rest.pulls.list({
                   owner,
                   repo,
