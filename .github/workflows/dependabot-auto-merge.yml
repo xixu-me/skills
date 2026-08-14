@@ -23,7 +23,7 @@ permissions:
 jobs:
   merge:
     name: Auto-merge Dependabot PRs
-    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && startsWith(github.event.workflow_run.head_branch, 'dependabot/'))
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -53,34 +53,16 @@ jobs:
             };
 
             const findCandidatePulls = async () => {
-              const branch = context.payload.workflow_run?.head_branch;
-              if (context.eventName === "workflow_run") {
-                if (!String(branch || "").startsWith("dependabot/")) {
-                  core.info("Workflow run was for " + (branch || "an unknown branch") + "; skipping non-Dependabot branch.");
-                  return [];
-                }
-
-                const { data: pulls } = await github.rest.pulls.list({
-                  owner,
-                  repo,
-                  state: "open",
-                  head: owner + ":" + branch,
-                  per_page: 10,
-                });
-
-                return pulls.filter((pr) => pr.user?.login === "dependabot[bot]");
-              }
-
               const pulls = await github.paginate(github.rest.pulls.list, {
                 owner,
                 repo,
                 state: "open",
                 per_page: 100,
               });
-
+            
               return pulls.filter((pr) => pr.user?.login === "dependabot[bot]");
             };
-
+            
             const getMergeablePullRequest = async (pull_number) => {
               for (let attempt = 1; attempt <= 6; attempt += 1) {
                 const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number });
