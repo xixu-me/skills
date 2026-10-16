@@ -7,6 +7,10 @@
 
 由我维护的、用于实际工程工作的 [Agent Skills](https://agentskills.io)。该存储库会持续更新。
 
+## 🎞️ 创意媒体 Skills
+
+如果你希望把创意简报继续变成视频、图片或音乐，可以试试 [Renoise](https://renoise.ai/plugin)：它把对话式制作流程带到 Claude、ChatGPT、Codex 及其他 MCP 客户端。前往[官方插件仓库](https://github.com/ArcoCodes/renoise-plugins-official)了解安装方式和可移植的创意 Skills。
+
 [![skills.sh](https://skills.sh/b/xixu-me/skills)](https://skills.sh/xixu-me/skills)
 
 ## 如何使用

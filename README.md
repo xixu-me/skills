@@ -7,6 +7,10 @@
 
 [Agent Skills](https://agentskills.io) maintained by me for practical engineering work. This repository is continuously updated.
 
+## 🎞️ Creative media Skills
+
+For briefs that should become video, images, or music, [Renoise](https://renoise.ai/plugin) brings a conversational production workflow to Claude, ChatGPT, Codex, and other MCP clients. Start with the [official plugin repository](https://github.com/ArcoCodes/renoise-plugins-official) to explore the integration and its portable creative Skills.
+
 [![skills.sh](https://skills.sh/b/xixu-me/skills)](https://skills.sh/xixu-me/skills)
 
 ## How To Use
