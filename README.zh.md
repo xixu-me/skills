@@ -1,13 +1,13 @@
 <!-- renoise-banner -->
 <p align="center">
-  <a href="https://renoise.ai/plugin">
+  <a href="https://renoise.ai/plugin?utm_medium=github&utm_source=xixu">
     <img src="https://raw.githubusercontent.com/ArcoCodes/renoise-plugins-official/main/assets/icon.svg" alt="Renoise" width="96">
   </a>
 </p>
 
 <p align="center">
-  <strong>在 AI 对话中，把创意变成视频、图片与音乐</strong><br>
-  <a href="https://renoise.ai/plugin">打开 Renoise</a> · <a href="https://github.com/ArcoCodes/renoise-plugins-official">查看官方插件与 Skills</a>
+  <a href="https://renoise.ai/plugin?utm_medium=github&utm_source=xixu">Renoise MCP</a> · <a href="https://github.com/ArcoCodes/renoise-plugins-official">Renoise Skills &amp; CLI</a><br><br>
+  <strong>把可复用 Skill 直接变成口播视频：说一次需求，生成成片，告别手工制作。</strong>
 </p>
 
 # Agent Skills
@@ -18,10 +18,6 @@
 > 欢迎加入“Xget 开源与 AI 交流群”，一起交流开源项目、AI 应用、工程实践、效率工具和独立开发；如果你也在做产品、写代码、折腾项目或者对开源和 AI 感兴趣，欢迎[**进群**](https://file.xi-xu.me/QR%20Codes/%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png)认识更多认真做事、乐于分享的朋友。
 
 由我维护的、用于实际工程工作的 [Agent Skills](https://agentskills.io)。该存储库会持续更新。
-
-## 🎞️ 创意媒体 Skills
-
-如果你希望把创意简报继续变成视频、图片或音乐，可以试试 [Renoise](https://renoise.ai/plugin)：它把对话式制作流程带到 Claude、ChatGPT、Codex 及其他 MCP 客户端。前往[官方插件仓库](https://github.com/ArcoCodes/renoise-plugins-official)了解安装方式和可移植的创意 Skills。
 
 [![skills.sh](https://skills.sh/b/xixu-me/skills)](https://skills.sh/xixu-me/skills)
 
